@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { ttN_CreateDropdown, ttN_RemoveDropdown } from "./ttNdropdown.js";
 
 const widgets_to_ignore = ['control_after_generate', 'empty_latent_aspect', 'empty_latent_width', 'empty_latent_height']

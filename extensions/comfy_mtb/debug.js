@@ -10,7 +10,7 @@
 // Reference the shared typedefs file
 /// <reference path="../types/typedefs.js" />
 
-import { app } from '/scripts/app.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
 
 import * as shared from './comfy_shared.js'
 import { MtbWidgets } from './mtb_widgets.js'

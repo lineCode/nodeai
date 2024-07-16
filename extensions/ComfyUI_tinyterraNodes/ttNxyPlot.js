@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { ttN_CreateDropdown, ttN_RemoveDropdown } from "./ttNdropdown.js";
 
 function generateNumList(dictionary) {

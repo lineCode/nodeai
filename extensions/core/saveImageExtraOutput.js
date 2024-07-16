@@ -1,5 +1,5 @@
-import { app } from "/scripts/app.js";
-import { applyTextReplacements } from "/scripts/utils.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { applyTextReplacements } from "//comfyui.nodecomfy.com/scripts/utils.js";
 // Use widget values and dates in output filenames
 
 app.registerExtension({

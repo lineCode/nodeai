@@ -2,7 +2,7 @@ import { GroupNodeHandler } from "../core/groupNode.js";
 import { UseEverywhereList } from "./use_everywhere_classes.js";
 import { add_ue_from_node, add_ue_from_node_in_group } from "./use_everywhere_nodes.js";
 import { node_in_loop, node_is_live, is_connected, is_UEnode, Logger, get_real_node } from "./use_everywhere_utilities.js";
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 class GraphAnalyser {
     static _instance;

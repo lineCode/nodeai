@@ -1,4 +1,4 @@
-import { $el } from "/scripts/ui.js";
+import { $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
 import { addStylesheet } from "./utils.js";
 
 addStylesheet(import.meta.url);

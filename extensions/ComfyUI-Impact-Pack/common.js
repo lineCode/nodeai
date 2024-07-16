@@ -1,5 +1,5 @@
-import { api } from "/scripts/api.js";
-import { app } from "/scripts/app.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 let original_show = app.ui.dialog.show;
 

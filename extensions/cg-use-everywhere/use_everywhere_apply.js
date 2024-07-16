@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { is_UEnode, get_real_node } from "./use_everywhere_utilities.js";
 
 

@@ -1,8 +1,8 @@
-import { app } from '/scripts/app.js'
-import { api } from '/scripts/api.js'
-// import { ComfyWidgets } from '/scripts/widgets.js'
-import { $el } from '/scripts/ui.js'
-import { applyTextReplacements } from '/scripts/utils.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
+import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
+// import { ComfyWidgets } from '//comfyui.nodecomfy.com/scripts/widgets.js'
+import { $el } from '//comfyui.nodecomfy.com/scripts/ui.js'
+import { applyTextReplacements } from '//comfyui.nodecomfy.com/scripts/utils.js'
 
 function loadImageToCanvas (base64Image) {
   var img = new Image()

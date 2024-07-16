@@ -1,6 +1,6 @@
-import {app} from "/scripts/app.js";
-import {api} from "/scripts/api.js";
-import {$el} from "/scripts/ui.js";
+import {app} from "//comfyui.nodecomfy.com/scripts/app.js";
+import {api} from "//comfyui.nodecomfy.com/scripts/api.js";
+import {$el} from "//comfyui.nodecomfy.com/scripts/ui.js";
 
 const propmts = ["easy wildcards", "easy positive", "easy negative", "easy stylesSelector", "easy promptConcat", "easy promptReplace"]
 const loaders = ["easy a1111Loader", "easy comfyLoader", "easy fullLoader", "easy svdLoader", "easy cascadeLoader", "easy sv3dLoader"]

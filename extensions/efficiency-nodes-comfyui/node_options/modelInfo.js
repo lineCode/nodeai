@@ -1,5 +1,5 @@
-import { app } from "/scripts/app.js";
-import { $el } from "/scripts/ui.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
 import { ModelInfoDialog } from "./common/modelInfoDialog.js";
 import { addMenuHandler } from "./common/utils.js";
 

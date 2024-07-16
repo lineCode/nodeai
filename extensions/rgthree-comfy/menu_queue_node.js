@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { rgthree } from "./rgthree.js";
 import { SERVICE as CONFIG_SERVICE } from "./config_service.js";
 function getOutputNodesFromSelected(canvas) {

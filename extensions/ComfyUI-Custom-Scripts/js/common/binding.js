@@ -1,10 +1,10 @@
 // @ts-check
 // @ts-ignore
-import { ComfyWidgets } from "/scripts/widgets.js";
+import { ComfyWidgets } from "//comfyui.nodecomfy.com/scripts/widgets.js";
 // @ts-ignore
-import { api } from "/scripts/api.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 // @ts-ignore
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 const PathHelper = {
 	get(obj, path) {

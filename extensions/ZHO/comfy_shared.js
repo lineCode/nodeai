@@ -7,7 +7,7 @@
  *
  */
 
-import { app } from '/scripts/app.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
 
 export const log = (...args) => {
   if (window.MTB?.DEBUG) {

@@ -1,6 +1,6 @@
-import { app } from "/scripts/app.js";
-import { importA1111 } from "/scripts/pnginfo.js";
-import { ComfyWidgets } from "/scripts/widgets.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { importA1111 } from "//comfyui.nodecomfy.com/scripts/pnginfo.js";
+import { ComfyWidgets } from "//comfyui.nodecomfy.com/scripts/widgets.js";
 
 let getDrawTextConfig = null;
 let fileInput;

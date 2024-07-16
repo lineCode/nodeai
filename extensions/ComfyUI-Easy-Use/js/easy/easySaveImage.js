@@ -1,5 +1,5 @@
-import { app } from "/scripts/app.js";
-import { applyTextReplacements } from "/scripts/utils.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { applyTextReplacements } from "//comfyui.nodecomfy.com/scripts/utils.js";
 
 const extraNodes = ["easy imageSave", "easy fullkSampler", "easy kSampler", "easy kSamplerTiled","easy kSamplerInpainting", "easy kSamplerDownscaleUnet", "easy kSamplerSDTurbo","easy detailerFix"]
 

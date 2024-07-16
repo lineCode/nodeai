@@ -1,6 +1,6 @@
-import { app as _app } from "/scripts/app.js";
+import { app as _app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { mergeIfValid, getWidgetConfig, setWidgetConfig } from "../../../extensions/core/widgetInputs.js";
-// import { ComfyWidgets } from "/scripts/widgets.js";
+// import { ComfyWidgets } from "//comfyui.nodecomfy.com/scripts/widgets.js";
 
 export const ids1 = new Set(["smZ CLIPTextEncode"])
 export const ids2 = new Set(["smZ Settings"])

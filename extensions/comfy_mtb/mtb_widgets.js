@@ -11,8 +11,8 @@
 
 // TODO: Use the builtin addDOMWidget everywhere appropriate
 
-import { app } from '/scripts/app.js'
-import { api } from '/scripts/api.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
+import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
 
 import parseCss from './extern/parse-css.js'
 import * as shared from './comfy_shared.js'

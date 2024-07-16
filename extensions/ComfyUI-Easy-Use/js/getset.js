@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 // Node that allows you to tunnel connections for cleaner graphs
 

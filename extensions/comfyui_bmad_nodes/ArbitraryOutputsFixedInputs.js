@@ -1,5 +1,5 @@
-import { ComfyWidgets, addValueControlWidget } from "/scripts/widgets.js";
-import { app } from "/scripts/app.js";
+import { ComfyWidgets, addValueControlWidget } from "//comfyui.nodecomfy.com/scripts/widgets.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 var mo_node_types = {
     "FromListGetMasks":  "MASK",

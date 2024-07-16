@@ -7,7 +7,7 @@
  *
  */
 
-import { app } from '/scripts/app.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
 
 import * as shared from './dz_comfy_shared.js'
 import { log } from './dz_comfy_shared.js'

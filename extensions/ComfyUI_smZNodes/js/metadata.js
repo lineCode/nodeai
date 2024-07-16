@@ -1,6 +1,6 @@
-import { app } from "/scripts/app.js";
-import { api } from "/scripts/api.js";
-import { getPngMetadata } from "/scripts/pnginfo.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
+import { getPngMetadata } from "//comfyui.nodecomfy.com/scripts/pnginfo.js";
 let _EXIF = null
 
 app.registerExtension({

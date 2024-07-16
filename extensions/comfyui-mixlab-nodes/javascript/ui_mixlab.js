@@ -1,6 +1,6 @@
-import { app } from '/scripts/app.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
 import { closeIcon } from './svg_icons.js'
-import { api } from '/scripts/api.js'
+import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
 
 import {
   GroupNodeConfig,

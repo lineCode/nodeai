@@ -1,8 +1,8 @@
-import { app } from '/scripts/app.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
 import * as shared from './comfy_shared.js'
 import { infoLogger } from './comfy_shared.js'
 import { MtbWidgets } from './mtb_widgets.js'
-import { ComfyWidgets } from '/scripts/widgets.js'
+import { ComfyWidgets } from '//comfyui.nodecomfy.com/scripts/widgets.js'
 import * as mtb_widgets from './mtb_widgets.js'
 
 /**

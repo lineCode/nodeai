@@ -1,6 +1,6 @@
-import {app} from "/scripts/app.js";
-import {$el} from "/scripts/ui.js";
-import {ComfyWidgets} from "/scripts/widgets.js";
+import {app} from "//comfyui.nodecomfy.com/scripts/app.js";
+import {$el} from "//comfyui.nodecomfy.com/scripts/ui.js";
+import {ComfyWidgets} from "//comfyui.nodecomfy.com/scripts/widgets.js";
 
 function get_position_style(ctx, node_width, node_height, y, widget_height, isSingle) {
     /* Create a transform that deals with all the scrolling and zooming */

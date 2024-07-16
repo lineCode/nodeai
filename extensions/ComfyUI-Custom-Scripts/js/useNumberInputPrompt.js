@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 const id = "pysssss.UseNumberInputPrompt";
 const ext = {

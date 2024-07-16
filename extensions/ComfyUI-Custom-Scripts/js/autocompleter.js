@@ -1,7 +1,7 @@
-import { app } from "/scripts/app.js";
-import { ComfyWidgets } from "/scripts/widgets.js";
-import { api } from "/scripts/api.js";
-import { $el, ComfyDialog } from "/scripts/ui.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { ComfyWidgets } from "//comfyui.nodecomfy.com/scripts/widgets.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
+import { $el, ComfyDialog } from "//comfyui.nodecomfy.com/scripts/ui.js";
 import { TextAreaAutoComplete } from "./common/autocomplete.js";
 import { ModelInfoDialog } from "./common/modelInfoDialog.js";
 import { LoraInfoDialog } from "./modelInfo.js";

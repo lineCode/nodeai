@@ -1,5 +1,5 @@
-import { app } from "/scripts/app.js";
-import { api } from "/scripts/api.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 
 import { is_UEnode, is_helper, inject, Logger, get_real_node } from "./use_everywhere_utilities.js";
 import { displayMessage, update_input_label, indicate_restriction } from "./use_everywhere_ui.js";

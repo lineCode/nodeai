@@ -1,5 +1,5 @@
-import {app} from "/scripts/app.js";
-import {ComfyWidgets} from "/scripts/widgets.js";
+import {app} from "//comfyui.nodecomfy.com/scripts/app.js";
+import {ComfyWidgets} from "//comfyui.nodecomfy.com/scripts/widgets.js";
 
 // It is currently not possible to disable the built-in dynamic prompts-like syntax in ComfyUI.
 // Until that is fixed, this extension is used to disable it.

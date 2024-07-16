@@ -1,6 +1,6 @@
-import { app } from '/scripts/app.js'
-import { $el } from '/scripts/ui.js'
-import { api } from '/scripts/api.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
+import { $el } from '//comfyui.nodecomfy.com/scripts/ui.js'
+import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
 
 //本机安装的插件节点全集
 window._nodesAll = null

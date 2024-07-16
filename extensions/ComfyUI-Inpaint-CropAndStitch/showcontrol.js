@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 // Some fragments of this code are from https://github.com/LucianoCirino/efficiency-nodes-comfyui
 

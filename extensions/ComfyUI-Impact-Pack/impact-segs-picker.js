@@ -1,6 +1,6 @@
-import { ComfyApp, app } from "/scripts/app.js";
-import { ComfyDialog, $el } from "/scripts/ui.js";
-import { api } from "/scripts/api.js";
+import { ComfyApp, app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { ComfyDialog, $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 
 async function open_picker(node) {
     const resp = await api.fetchApi(`/impact/segs/picker/count?id=${node.id}`);

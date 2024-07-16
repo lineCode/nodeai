@@ -1,6 +1,6 @@
-import { app } from "/scripts/app.js";
-import { api } from "/scripts/api.js";
-import { $el } from "/scripts/ui.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
+import { $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
 
 // Adds workflow management
 // Original implementation by https://github.com/i-h4x

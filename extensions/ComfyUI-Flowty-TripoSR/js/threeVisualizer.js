@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { api } from '/scripts/api.js'
+import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
 
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';

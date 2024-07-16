@@ -1,10 +1,10 @@
-import { api } from "/scripts/api.js";
-import { app } from "/scripts/app.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import {deepEqual, addCss, isLocalNetwork} from "../common/utils.js";
 import {quesitonIcon, rocketIcon, groupIcon, rebootIcon, closeIcon} from "../common/icon.js";
 import {$t} from '../common/i18n.js';
 import {toast} from "../common/toast.js";
-import {$el, ComfyDialog} from "/scripts/ui.js";
+import {$el, ComfyDialog} from "//comfyui.nodecomfy.com/scripts/ui.js";
 
 
 addCss('css/index.css')

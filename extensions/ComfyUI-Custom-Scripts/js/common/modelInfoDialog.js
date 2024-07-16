@@ -1,5 +1,5 @@
-import { $el, ComfyDialog } from "/scripts/ui.js";
-import { api } from "/scripts/api.js";
+import { $el, ComfyDialog } from "//comfyui.nodecomfy.com/scripts/ui.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 import { addStylesheet } from "./utils.js";
 
 addStylesheet(import.meta.url);

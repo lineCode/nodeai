@@ -1,5 +1,5 @@
 // Additional functions and imports
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { addMenuHandler, findWidgetByName } from "./common/utils.js";
 
 // A mapping for resolutions based on the type of the loader

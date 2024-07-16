@@ -1,4 +1,4 @@
-import { ComfyApp, app } from "/scripts/app.js";
+import { ComfyApp, app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 function load_image(str) {
 	let base64String = canvas.toDataURL('image/png');

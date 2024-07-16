@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { tinyterraReloadNode, wait, rebootAPI, getConfig, convertToInput, hideWidget } from "./utils.js";
 import { openFullscreenApp, _setDefaultFullscreenNode } from "./ttNfullscreen.js";
 

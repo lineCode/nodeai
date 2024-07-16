@@ -1,5 +1,5 @@
 // Detect and update Efficiency Nodes from v1.92 to v2.00 changes (Final update?)
-import { app } from '/scripts/app.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
 import { addNode } from "./node_options/common/utils.js";
 
 const ext = {

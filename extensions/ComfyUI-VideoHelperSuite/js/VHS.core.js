@@ -1,6 +1,6 @@
-import { app } from '/scripts/app.js'
-import { api } from '/scripts/api.js'
-import { applyTextReplacements } from "/scripts/utils.js";
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
+import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
+import { applyTextReplacements } from "//comfyui.nodecomfy.com/scripts/utils.js";
 
 function chainCallback(object, property, callback) {
     if (object == undefined) {
@@ -613,7 +613,7 @@ function addFormatWidgets(nodeType) {
                 } else {
                     formatWidget._value = fullDef[0];
                     for (let wDef of fullDef[1]) {
-                        //create widgets. Heavy borrowed from web/scripts/app.js
+                        //create widgets. Heavy borrowed from web//comfyui.nodecomfy.com/scripts/app.js
                         //default implementation doesn't work since it automatically adds
                         //the widget in the wrong spot.
                         //TODO: consider letting this happen and just removing from list?

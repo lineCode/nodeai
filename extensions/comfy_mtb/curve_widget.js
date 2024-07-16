@@ -1,6 +1,6 @@
 // Reference the shared typedefs file
 /// <reference path="../types/typedefs.js" />
-import { app } from '/scripts/app.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
 import { infoLogger } from './comfy_shared.js'
 
 function B0(t) {

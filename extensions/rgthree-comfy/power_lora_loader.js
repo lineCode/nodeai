@@ -1,5 +1,5 @@
 var _a;
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { RgthreeBaseServerNode } from "./base_node.js";
 import { rgthree } from "./rgthree.js";
 import { addConnectionLayoutSupport } from "./utils.js";

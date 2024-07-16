@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { addMenuHandler } from "./node_options/common/utils.js";
 
 const LAST_SEED_BUTTON_LABEL = '🎲 Randomize / ♻️ Last Queued Seed';

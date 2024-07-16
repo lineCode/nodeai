@@ -1,4 +1,4 @@
-import { app } from '/scripts/app.js';
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js';
 import { addConnectionLayoutSupport } from './utils.js';
 import { PowerPrompt } from './base_power_prompt.js';
 let nodeData = null;

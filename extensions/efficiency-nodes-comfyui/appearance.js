@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 const COLOR_THEMES = {
     red: { nodeColor: "#332222", nodeBgColor: "#553333" },

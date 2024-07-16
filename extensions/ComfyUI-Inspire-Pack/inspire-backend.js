@@ -1,4 +1,4 @@
-import { api } from "/scripts/api.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 
 async function refresh_data(node) {
 	let response = await api.fetchApi('/inspire/cache/list');

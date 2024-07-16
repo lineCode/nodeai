@@ -1,4 +1,4 @@
-import { api } from "/scripts/api.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 
 // 全局Seed
 function globalSeedHandler(event) {

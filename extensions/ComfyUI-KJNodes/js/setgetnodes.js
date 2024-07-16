@@ -1,4 +1,4 @@
-import { app } from "/scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 //based on diffus3's SetGet: https://github.com/diffus3/ComfyUI-extensions
 

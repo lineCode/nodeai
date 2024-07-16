@@ -1,4 +1,4 @@
-import { ComfyApp, app } from "/scripts/app.js";
+import { ComfyApp, app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 export function register_concat_conditionings_with_multiplier_node(nodeType, nodeData, app) {
 	if (nodeData.name === 'ConcatConditioningsWithMultiplier //Inspire') {

@@ -1,4 +1,4 @@
-import { api } from '/scripts/api.js';
+import { api } from '//comfyui.nodecomfy.com/scripts/api.js';
 import { wait } from "../../rgthree/common/shared_utils.js";
 import { rgthree } from "./rgthree.js";
 export class PowerPrompt {

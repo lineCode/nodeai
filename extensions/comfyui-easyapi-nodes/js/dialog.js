@@ -1,4 +1,4 @@
-import { $el, ComfyDialog } from "/scripts/ui.js";
+import { $el, ComfyDialog } from "//comfyui.nodecomfy.com/scripts/ui.js";
 
 export class EasyApiDialog extends ComfyDialog {
 	constructor() {

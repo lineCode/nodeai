@@ -1,4 +1,4 @@
-import { api } from "/scripts/api.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 
 function nodeFeedbackHandler(event) {
 	let nodes = app.graph._nodes_by_id;

@@ -1,6 +1,6 @@
-import { api } from "/scripts/api.js";
-import { app } from "/scripts/app.js";
-import { $el } from "/scripts/ui.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
 import { lightbox } from "./common/lightbox.js";
 
 $el("style", {
@@ -222,7 +222,7 @@ app.registerExtension({
 		});
 		let showMenuButton;
 		if (!app.menu?.element.style.display && app.menu?.settingsGroup) {
-			showMenuButton = new (await import("/scripts/ui/components/button.js")).ComfyButton({
+			showMenuButton = new (await import("//comfyui.nodecomfy.com/scripts/ui/components/button.js")).ComfyButton({
 				icon: "image-multiple",
 				action: () => showButton.click(),
 				tooltip: "Show Image Feed 🐍",

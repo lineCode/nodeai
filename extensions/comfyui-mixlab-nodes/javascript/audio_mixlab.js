@@ -1,7 +1,7 @@
-import { app } from '/scripts/app.js'
-// import { api } from '/scripts/api.js'
-import { ComfyWidgets } from '/scripts/widgets.js'
-import { $el } from '/scripts/ui.js'
+import { app } from '//comfyui.nodecomfy.com/scripts/app.js'
+// import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
+import { ComfyWidgets } from '//comfyui.nodecomfy.com/scripts/widgets.js'
+import { $el } from '//comfyui.nodecomfy.com/scripts/ui.js'
 
 function get_position_style (ctx, widget_width, y, node_height) {
   const MARGIN = 4 // the margin around the html element

@@ -1,6 +1,6 @@
-import { ComfyApp, app } from "/scripts/app.js";
-import { ComfyDialog, $el } from "/scripts/ui.js";
-import { api } from "/scripts/api.js";
+import { ComfyApp, app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { ComfyDialog, $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 
 let wildcards_list = [];
 async function load_wildcards() {

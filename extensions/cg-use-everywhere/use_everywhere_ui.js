@@ -1,6 +1,6 @@
 import { Logger, get_real_node, get_group_node, get_all_nodes_within } from "./use_everywhere_utilities.js";
-import { ComfyWidgets } from "/scripts/widgets.js";
-import { app } from "/scripts/app.js";
+import { ComfyWidgets } from "//comfyui.nodecomfy.com/scripts/widgets.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 
 function nodes_in_my_group(node_id) {
     const nodes_in = new Set();
