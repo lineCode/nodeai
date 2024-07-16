@@ -1,6 +1,6 @@
 import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
-import { GroupNodeHandler } from '/extensions/core/groupNode.js'
+import { GroupNodeHandler } from '//comfyui.nodecomfy.com/extensions/core/groupNode.js'
 import { EasyApiDialog } from './dialog.js'
 
 const style = `

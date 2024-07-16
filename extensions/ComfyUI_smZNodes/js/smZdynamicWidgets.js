@@ -1,5 +1,5 @@
 import { app as _app } from "//comfyui.nodecomfy.com/scripts/app.js";
-import { mergeIfValid, getWidgetConfig, setWidgetConfig } from "../../../extensions/core/widgetInputs.js";
+import { mergeIfValid, getWidgetConfig, setWidgetConfig } from "//comfyui.nodecomfy.com/extensions/core/widgetInputs.js";
 // import { ComfyWidgets } from "//comfyui.nodecomfy.com/scripts/widgets.js";
 
 export const ids1 = new Set(["smZ CLIPTextEncode"])

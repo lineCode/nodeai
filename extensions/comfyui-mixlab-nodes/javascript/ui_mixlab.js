@@ -5,7 +5,7 @@ import { api } from '//comfyui.nodecomfy.com/scripts/api.js'
 import {
   GroupNodeConfig,
   GroupNodeHandler
-} from '../../../extensions/core/groupNode.js'
+} from '//comfyui.nodecomfy.com/extensions/core/groupNode.js'
 
 import { smart_init, addSmartMenu } from './smart_connect.js'
 

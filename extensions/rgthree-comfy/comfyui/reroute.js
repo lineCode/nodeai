@@ -1,6 +1,6 @@
 var _a, _b;
 import { app } from "../../scripts/app.js";
-import { getWidgetConfig, mergeIfValid, setWidgetConfig, } from "../../extensions/core/widgetInputs.js";
+import { getWidgetConfig, mergeIfValid, setWidgetConfig, } from "//comfyui.nodecomfy.com/extensions/core/widgetInputs.js";
 import { rgthreeConfig } from "../../rgthree/config.js";
 import { rgthree } from "./rgthree.js";
 import { IoDirection, LAYOUT_CLOCKWISE, LAYOUT_LABEL_OPPOSITES, LAYOUT_LABEL_TO_DATA, addConnectionLayoutSupport, addMenuItem, getSlotLinks, isValidConnection, setConnectionsLayout, waitForCanvas, } from "./utils.js";

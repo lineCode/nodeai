@@ -2,7 +2,7 @@ import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 import { ComfyDialog, $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
 import { ComfyApp } from "//comfyui.nodecomfy.com/scripts/app.js";
-import { ClipspaceDialog } from "../../extensions/core/clipspace.js";
+import { ClipspaceDialog } from "//comfyui.nodecomfy.com/extensions/core/clipspace.js";
 
 function addMenuHandler(nodeType, cb) {
 	const getOpts = nodeType.prototype.getExtraMenuOptions;
