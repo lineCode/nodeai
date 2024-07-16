@@ -1,5 +1,5 @@
-import { app } from "../../scripts/app.js";
-import { api } from "../../scripts/api.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 import { getResolver, wait } from "../../rgthree/common/shared_utils.js";
 import { RgthreeHelpDialog } from "../../rgthree/common/dialog.js";
 const oldApiGetNodeDefs = api.getNodeDefs;

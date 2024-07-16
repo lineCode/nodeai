@@ -1,5 +1,5 @@
 import { rgthreeApi } from "./rgthree_api.js";
-import { api } from "../../scripts/api.js";
+import { api } from "//comfyui.nodecomfy.com/scripts/api.js";
 class ModelInfoService extends EventTarget {
     constructor() {
         super();

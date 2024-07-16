@@ -1,4 +1,4 @@
-import { app } from "../../scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 function binarySearch(max, getValue, match) {
     let min = 0;
     while (min <= max) {

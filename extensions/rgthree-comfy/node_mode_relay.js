@@ -1,4 +1,4 @@
-import { app } from "../../scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { PassThroughFollowing, addConnectionLayoutSupport, getConnectedInputNodesAndFilterPassThroughs, getConnectedOutputNodesAndFilterPassThroughs, } from "./utils.js";
 import { wait } from "../../rgthree/common/shared_utils.js";
 import { BaseCollectorNode } from "./base_node_collector.js";

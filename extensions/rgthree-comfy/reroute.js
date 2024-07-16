@@ -1,5 +1,5 @@
 var _a, _b;
-import { app } from "../../scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { getWidgetConfig, mergeIfValid, setWidgetConfig, } from "../../extensions/core/widgetInputs.js";
 import { rgthreeConfig } from "../../rgthree/config.js";
 import { rgthree } from "./rgthree.js";

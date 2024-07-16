@@ -1,4 +1,4 @@
-import { app } from "../../scripts/app.js";
+import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
 import { RgthreeDialog } from "../../rgthree/common/dialog.js";
 import { createElement as $el, query as $$ } from "../../rgthree/common/utils_dom.js";
 import { checkmark, logoRgthree } from "../../rgthree/common/media/svgs.js";
