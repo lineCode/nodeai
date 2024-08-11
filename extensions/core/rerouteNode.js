@@ -1,4 +1,4 @@
-import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { app } from "../../scripts/app.js";
 import { mergeIfValid, getWidgetConfig, setWidgetConfig } from "./widgetInputs.js";
 
 // Node that allows you to redirect connections for cleaner graphs

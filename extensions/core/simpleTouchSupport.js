@@ -1,4 +1,4 @@
-import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
+import { app } from "../../scripts/app.js";
 
 let touchZooming;
 let touchCount = 0;

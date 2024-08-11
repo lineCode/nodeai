@@ -1,5 +1,5 @@
-import { app } from "//comfyui.nodecomfy.com/scripts/app.js"
-import { api } from "//comfyui.nodecomfy.com/scripts/api.js"
+import { app } from "../../scripts/app.js"
+import { api } from "../../scripts/api.js"
 
 function splitFilePath(path) {
   const folder_separator = path.lastIndexOf("/")
@@ -17,7 +17,6 @@ function getResourceURL(subfolder, filename, type = "input") {
     "filename=" + encodeURIComponent(filename),
     "type=" + type,
     "subfolder=" + subfolder,
-    app.getPreviewFormatParam().substring(1),
     app.getRandParam().substring(1)
   ].join("&")
 
@@ -149,6 +148,15 @@ app.registerExtension({
           onAudioWidgetUpdate()
         }
         audioWidget.callback = onAudioWidgetUpdate
+
+        // Load saved audio file widget values if restoring from workflow
+        const onGraphConfigured = node.onGraphConfigured;
+        node.onGraphConfigured = function() {
+          onGraphConfigured?.apply(this, arguments)
+          if (audioWidget.value) {
+            onAudioWidgetUpdate()
+          }
+        }
 
         const fileInput = document.createElement("input")
         fileInput.type = "file"

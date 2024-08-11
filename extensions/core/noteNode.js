@@ -1,5 +1,5 @@
-import {app} from "//comfyui.nodecomfy.com/scripts/app.js";
-import {ComfyWidgets} from "//comfyui.nodecomfy.com/scripts/widgets.js";
+import {app} from "../../scripts/app.js";
+import {ComfyWidgets} from "../../scripts/widgets.js";
 // Node that add notes to your project
 
 app.registerExtension({

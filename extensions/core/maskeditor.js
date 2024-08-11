@@ -1,7 +1,7 @@
-import { app } from "//comfyui.nodecomfy.com/scripts/app.js";
-import { ComfyDialog, $el } from "//comfyui.nodecomfy.com/scripts/ui.js";
-import { ComfyApp } from "//comfyui.nodecomfy.com/scripts/app.js";
-import { api } from "//comfyui.nodecomfy.com/scripts/api.js"
+import { app } from "../../scripts/app.js";
+import { ComfyDialog, $el } from "../../scripts/ui.js";
+import { ComfyApp } from "../../scripts/app.js";
+import { api } from "../../scripts/api.js"
 import { ClipspaceDialog } from "./clipspace.js";
 
 // Helper function to convert a data URL to a Blob object

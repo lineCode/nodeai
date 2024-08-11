@@ -1,6 +1,6 @@
-import { $el, ComfyDialog } from "//comfyui.nodecomfy.com/scripts/ui.js";
-import { DraggableList } from "//comfyui.nodecomfy.com/scripts/ui/draggableList.js";
-import { addStylesheet } from "//comfyui.nodecomfy.com/scripts/utils.js";
+import { $el, ComfyDialog } from "../../scripts/ui.js";
+import { DraggableList } from "../../scripts/ui/draggableList.js";
+import { addStylesheet } from "../../scripts/utils.js";
 import { GroupNodeConfig, GroupNodeHandler } from "./groupNode.js";
 
 addStylesheet(import.meta.url);
